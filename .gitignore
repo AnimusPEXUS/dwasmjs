@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dwasmjs
+dwasmjs.so
+dwasmjs.dylib
+dwasmjs.dll
+dwasmjs.a
+dwasmjs.lib
+dwasmjs-test-*
+*.exe
+*.o
+*.obj
+*.lst
