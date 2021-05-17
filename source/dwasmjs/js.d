@@ -4,26 +4,21 @@ alias value_id = size_t;
 extern (C)
 {
 
-    // print callback
-    value_id object_new();
-
-    void value_free(value_id id);
-
-    void send_string_test(string);
-
     int dwasmjsclass_value_get_type();
 
+    void dwasmjsclass_console_log(immutable(char)* str, size_t len);
 }
 
-void send_string_test2(string s) {
-    send_string_test
+/* extern{
+    _D6object6Object8toStringMFZAya
+} */
+
+
+void consoleLog(string txt)
+{
+    dwasmjsclass_console_log(txt.ptr, txt.length);
 }
 
-class ValueDispatcher {
-    private uint[value_id] registry;
-}
-
-auto valueDispatcher = ValueDispatcher();
 
 class Value {
 

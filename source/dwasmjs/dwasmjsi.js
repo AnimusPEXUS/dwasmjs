@@ -99,6 +99,11 @@
                     sp >>>= 0;
                     return 123;
                 },
+
+                'dwasmjsclass_console_log': (addr, length) => {
+                    console.log(memGetString(addr, length))
+                    return ;
+                },
             };
 
             WebAssembly.instantiateStreaming(
