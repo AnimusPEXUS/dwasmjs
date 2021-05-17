@@ -1,9 +1,11 @@
 {
+	"name": "dwasmjs",
+	"description": "A minimal D application.",
 	"authors": [
 		"animuspexus"
 	],
 	"copyright": "Copyright © 2021, animuspexus",
-	"description": "A minimal D application.",
 	"license": "GPLv3",
-	"name": "dwasmjs"
+	"dflags": ["-mtriple=wasm32-unknown-unknown-wasm", "--betterC"],
+	"lflags": ["-allow-undefined"]
 }

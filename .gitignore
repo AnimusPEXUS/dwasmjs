@@ -3,6 +3,7 @@ docs.json
 __dummy.html
 docs/
 /dwasmjs
+/libdwasmjs.a
 dwasmjs.so
 dwasmjs.dylib
 dwasmjs.dll
