@@ -13,6 +13,6 @@
 	"lflags": [
 		"-allow-undefined"
 	],
-	"license": "GPLv3",
+	"license": "BSL-1.0",
 	"name": "dwasmjs"
 }
