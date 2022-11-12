@@ -1,3 +1,4 @@
 [submodule "dmd"]
 	path = dmd
-	url = git@github.com:dlang/dmd.git
+	url = git@github.com:AnimusPEXUS/dmd.git
+	branch = animuspexus_wasm_runtime
