@@ -1,0 +1,80 @@
+import dwasmjs.js;
+
+extern (C) void _start()
+{
+}
+
+extern (C) void run()
+{
+    myRun();
+}
+
+class C1
+{
+    this()
+    {
+        consoleLog("this()");
+    }
+
+    ~this()
+    {
+        consoleLog("~this()");
+    }
+}
+
+void myRun()
+{
+    consoleLog("123456");
+    auto c1 = new C1();
+}
+// void main()
+// {
+
+// }
+
+//import dwasmjs.js;
+
+/* extern (C)
+{
+    void dwasmjsclass_console_log(immutable(char)* str, size_t len);
+    int dwasmjsclass_test01();
+} */
+
+/*
+void consoleLog(string txt)
+{
+    dwasmjsclass_console_log(txt.ptr, txt.length);
+}
+
+*/
+/*
+extern (C) void run()
+{
+    consoleLog("inside of run() даже русский");
+    auto t = dwasmjsclass_test01();
+    if (t == 123)
+    {
+        consoleLog("ok");
+    }
+    else
+    {
+        consoleLog("error");
+    }
+
+    auto t2 = dwasmjsclass_test02();
+
+    if (t2 == "1234")
+    {
+        consoleLog("ok");
+    }
+    else
+    {
+        consoleLog("error");
+    }
+
+}
+
+//void main() {
+
+//}
+*/

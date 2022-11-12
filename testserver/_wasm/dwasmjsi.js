@@ -1,0 +1,1 @@
+../../source/dwasmjs/dwasmjsi.js

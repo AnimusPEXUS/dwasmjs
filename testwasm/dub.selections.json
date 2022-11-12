@@ -1,0 +1,7 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"dmd": "2.100.2",
+		"dwasmjs": "~master"
+	}
+}

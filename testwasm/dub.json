@@ -1,0 +1,18 @@
+{
+	"authors": [
+		"animuspexus"
+	],
+	"targetType": "executable",
+	"copyright": "Copyright © 2020, animuspexus",
+	"dependencies": {
+		"dwasmjs": "*",
+	},
+	"description": "A minimal D application.",
+	"license": "gplv3",
+	"name": "dwasmjstestjs",
+	"dflags": [
+	    "-mtriple=wasm32-unknown-unknown-wasm",
+	    "--betterC"
+	    ],
+	"lflags": ["-allow-undefined"]
+}

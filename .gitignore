@@ -14,4 +14,8 @@ dwasmjs-test-*
 *.o
 *.obj
 *.lst
+*.a
+**/.dub
 /gr
+/testserver/dwasmjstest
+/testwasm/dwasmjstestjs.wasm

@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"animuspexus"
+	],
+	"copyright": "Copyright © 2020, animuspexus",
+	"dependencies": {
+		"vibe-d": "~>0.9.3",
+		"vibe-d:tls": "*"
+	},
+	"subConfigurations": {
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "dwasmjstest"
+}
