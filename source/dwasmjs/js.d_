@@ -1,3 +1,5 @@
+module dwasmjs.js;
+
 alias value_id = size_t;
 
 extern (C)
