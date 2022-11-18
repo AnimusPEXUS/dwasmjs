@@ -1,4 +1,4 @@
 [submodule "dmd"]
 	path = dmd
 	url = git@github.com:AnimusPEXUS/dmd.git
-	branch = animuspexus_wasm_runtime
+	branch = koppe-ruppe-wasm
