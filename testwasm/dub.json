@@ -10,8 +10,7 @@
 	"description": "A minimal D application.",
 	"name": "dwasmjstestjs",
 	"dflags": [
-	    "-mtriple=wasm32-unknown-unknown-wasm",
-	    "--betterC"
+	    "-mtriple=wasm32-unknown-unknown-wasm"
 	    ],
 	"lflags": ["-allow-undefined"]
 }
