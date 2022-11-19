@@ -8,7 +8,6 @@
 	"description": "A minimal D application.",
 	"dflags": [
 		"-mtriple=wasm32-unknown-unknown-wasm",
-		"--betterC"
 	],
 	"lflags": [
 		"-allow-undefined"
